@@ -1,2 +1,2 @@
-# ucscrocketry.github.io
+# Rocketry @ UCSC
 testing,to see if this works
