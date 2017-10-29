@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-        background-image: url("images/spaceImages/galaxy1.jpeg"); 
+        background-image: url("galaxy1.jpeg"); 
         
 		/*background-color: #935d8c;
         /* This was what was set up originally
@@ -1649,6 +1649,7 @@
 /* Type */
 
 	body {
+        background-image: url("galaxy1.jpeg"); 
 		background-color: #935d8c;
 		color: rgba(255, 255, 255, 0.65);
 	}
@@ -2678,6 +2679,7 @@
 			font-size: 2em;
             text-align: center; 
 		}
+        
 
 			header.major h2:after {
 				display: block;
@@ -2687,6 +2689,7 @@
 				margin: 0.7em 0 1em 0;
 				border-radius: 2px;
 			}
+            
 
 				section.special header.major h2:after, article.special header.major h2:after {
 					margin-left: auto;
