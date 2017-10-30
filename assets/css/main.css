@@ -3572,13 +3572,9 @@
 		}
 
 		#main header.major h2:after {
-<<<<<<< HEAD
-            
 			background-color: #0066cc;
-=======
+			
 
-			background-color: #ffcc00;
->>>>>>> origin/master
             /*
 			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
