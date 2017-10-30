@@ -1623,8 +1623,8 @@
 	}
 
 	body {
-        background-image: url("../ucscrocketry/spaceImages/galaxy1.jpeg"); 
-        
+        background-image: url("../ucscrocketry/spaceImages/galaxy1.jpeg");
+
 		background-color: #3366cc;
         /* This was what was set up originally
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
@@ -1632,7 +1632,7 @@
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
         */
-           
+
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1649,7 +1649,7 @@
 /* Type */
 
 	body {
-        background-image: url("../ucscrocketry/spaceImages/galaxy1.jpeg"); 
+        background-image: url("../ucscrocketry/spaceImages/galaxy1.jpeg");
 		/*background-color: #935d8c;*/
 		/*color: rgba(255, 255, 255, 0.65);*/
 	}
@@ -2532,6 +2532,7 @@
 			padding-left: 0;
 		}
 
+
 			ul.actions li {
 				display: inline-block;
 				padding: 0 1em 0 0;
@@ -2677,9 +2678,9 @@
 
 		header.major h2 {
 			font-size: 2em;
-            text-align: center; 
+            text-align: center;
 		}
-        
+
 
 			header.major h2:after {
 				display: block;
@@ -2689,7 +2690,7 @@
 				margin: 0.7em 0 1em 0;
 				border-radius: 2px;
 			}
-            
+
 
 				section.special header.major h2:after, article.special header.major h2:after {
 					margin-left: auto;
@@ -2708,7 +2709,7 @@
 			header.major.special h2:after {
 				margin-left: auto;
 				margin-right: auto;
-              
+
 			}
 
 	footer.major {
@@ -3571,7 +3572,7 @@
 		}
 
 		#main header.major h2:after {
-            
+
 			background-color: #ffcc00;
             /*
 			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
@@ -3579,7 +3580,7 @@
 			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
             */
-            
+
 		}
 
 		#main table tbody tr {
@@ -3723,7 +3724,7 @@
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
-        color: white; 
+        color: white;
 	}
 
 		#footer > * {
@@ -3735,7 +3736,7 @@
 			width: 100%;
 			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
-            color: white; 
+            color: white;
 			text-align: center;
 		}
 
