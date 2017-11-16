@@ -1360,7 +1360,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f98780;
+			background-color: #0f1f38;
 		}
 
 		input[type="button"].style1,
@@ -1943,10 +1943,11 @@
 		/* Wrappers */
 
 			.wrapper {
-				padding: 6em 0 9em 0;
+				padding: 1em 0 2em 0;
 			}
 
 				.wrapper .title {
+                    padding: 5em 0 2em 0;
 					font-size: 0.9em;
 					width: 25em;
 					height: 3.25em;
