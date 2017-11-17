@@ -1368,7 +1368,7 @@
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #ffbf11  url("images/overlay.png");
+			background: #ffbf11 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1786,9 +1786,10 @@
 			section, article {
 				margin: 0 0 4em 0;
 			}
-
+        
+            /*area between title and text on subpage*/
 			header.style1 {
-				padding: 3em 0 3em 0;
+				padding: 3em 0 0em 0;
 			}
 
 				header.style1 h2 {
