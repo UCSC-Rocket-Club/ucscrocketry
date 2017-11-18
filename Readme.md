@@ -1,2 +1,4 @@
-hi wassup this is a branch file that we're making
-this will eventually replace the main file
+Welcome!!!
+This is now the main Website file!!!
+the link to our website is: ucscrocketry.org
+Enjoy!!!
