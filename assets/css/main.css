@@ -2514,7 +2514,7 @@
 					text-decoration: none;
 					height: 44px;
 					line-height: 44px;
-					border-top: solid 1px rgba(255, 255, 255, 1);
+					border-top: solid 1px rgba(255, 255, 255, 0);
 					margin: 0 15px 0 15px;
 				}
 
