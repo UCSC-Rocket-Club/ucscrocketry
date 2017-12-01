@@ -2471,7 +2471,7 @@
 						line-height: 38px;
 						text-align: center;
 						color: rgba(255, 255, 255, 0.75);
-						background-color: rgba(92, 95, 23, 0);
+						background-color: rgba(92, 95, 103, 0);
 						border-radius: 0.25em;
 					}
 
@@ -2506,7 +2506,7 @@
 
 				#navPanel .link {
 					display: block;
-					color: rgba(255, 255, 255, 0.5);
+					color: rgba(255, 255, 255, 0);
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.85em;
