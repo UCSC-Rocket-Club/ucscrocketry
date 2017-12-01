@@ -2471,12 +2471,12 @@
 						line-height: 38px;
 						text-align: center;
 						color: rgba(255, 255, 255, 0.75);
-						background-color: rgba(92, 95, 103, 0.5);
+						background-color: rgba(92, 95, 103, 0);
 						border-radius: 0.25em;
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: rgba(92, 95, 103, 0.75);
+						background-color: rgba(92, 95, 103, 0);
 					}
 
 			#navPanel {
