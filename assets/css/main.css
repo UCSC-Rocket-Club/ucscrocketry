@@ -3278,7 +3278,6 @@
 
 		#header nav {
 			position: absolute;
-            align-content: center; 
 			right: 1em; 
 			top: 0em;
 		}
@@ -3312,7 +3311,7 @@
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
+						color: deepskyblue;
 					}
 
 					#header nav ul li > ul {
