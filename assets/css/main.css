@@ -2013,6 +2013,8 @@
 		}
 	}
 
+/*landing code-- this is the code for the index page */
+
 	body.landing {
 		text-decoration: none;
 	}
@@ -3278,7 +3280,7 @@
 
 		#header nav {
 			position: absolute;
-			right: 1em; 
+			right: 1em;
 			top: 0em;
 		}
 
