@@ -3280,6 +3280,7 @@
 
 		#header nav {
 			position: absolute;
+            display: table-row;
 			right: 1em;
 			top: 0em;
 		}
