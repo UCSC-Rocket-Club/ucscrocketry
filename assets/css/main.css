@@ -3842,7 +3842,7 @@ float:center;
 				padding-bottom: 1px;
 				padding-top: 44px !important;
 			}
-
+/*code for the titlebar stuff*/
 			#titleBar {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;

@@ -57,9 +57,19 @@
 		// Off-Canvas Navigation.
 
 			// Title Bar.
+			/* normal version of this code for reference
+			$(
+				'<div id="titleBar">' +
+					'<a href="#navPanel" class="toggle"></a>' +
+					'<span class="title">' + $('#logo').html() + '</span>' +
+				'</div>'
+			)
+				.appendTo($body);
+			*/
+			//my version of this code
 				$(
 					'<div id="titleBar">' +
-						'<a href="#navPanel" class="toggle">Rocketry at UCSC</a>' +
+						'<a href="#navPanel" class="toggle"></a>' +
 						'<span class="title">' + $('#logo').html() + '</span>' +
 					'</div>'
 				)
