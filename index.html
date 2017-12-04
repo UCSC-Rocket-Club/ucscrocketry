@@ -14,6 +14,21 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
+	<style> /*this code is there to hide navbar on the top, to make sure custom navbar is the only thing seen properly */
+ #header nav {
+			display: none!important;
+	}
+</style>
+	<style type="text/css"> /*this code is there to hide the midpage logo unless on mobile-done cause it looks nicer*/
+  .mobileShow {display: none;}
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-width : 320px)
+    and (max-width : 736px){
+      .mobileShow {display: inline;}
+  }
+</style>
 	<body class="landing">
 		<div id="page-wrapper">
 
@@ -24,14 +39,29 @@
 					<div class="navigation-bar">
  					<!-- changed navbar to navigation-bar class, so dont use "nav" anymore if you want this particular layout.
 					the specific CSS code for this is found in main.css around 3370 or so -->
+<nav id="nav"> <!--this navbar is there NOT for actual navigation but to help display
+	                 navigation in mobile ONLY. Will keep this until a workaround is discovered -->
+	<ul>
+									<li><a href="mission.html">Mission</a></li>
+									<li><a href="team.html">Team</a></li>
+									<li><a href="documents.html">Documentation</a></li>
 
+								<li><a href="index.html">Home Page</a></span></li>
+
+									<li><a href="outreach.html">Outreach</a></li>
+									<li><a href="sponsors.html">Sponsors</a></li>
+									<li><a href="outreach.html">Contact Us</a></li>
+	</ul>
+</nav>
+<!--end pseudo navbar for mobile ^^ -->
+<!--REAL Navbar that has logo and is centered starts here -->
 	 <div id="navigation-container">
 						<ul>
                             <li><a href="mission.html">Mission</a></li>
                             <li><a href="team.html">Team</a></li>
                             <li><a href="documents.html">Documentation</a></li>
 
-                            <li><a href="index.html"><img src="graphics/RTCircle_v5.png" alt="logo" width="10%" height="10%"/></a></li>
+                            <li><a href="index.html"><span><img src="graphics/RTCircle_v5.png" alt="logo" width="10%" height="10%"/></a></span></li>
 
                             <li><a href="outreach.html">Outreach</a></li>
                             <li><a href="sponsors.html">Sponsors</a></li>
@@ -52,7 +82,9 @@
 							<p style="text-align: center">Advancing STEM Education.<br />
 							Empowering Students.</p>
 						</header>
-						<span class="image"><img src="graphics/RTCircle_v5.png" alt="" /></span>
+						<div class="mobileShow">
+							 <span class="image"><img src="graphics/RTCircle_v5.png" alt="" /></span>
+            </div>
 					</div>
 					<!-- SCROLL DOWN ARROW a href="#one" class="goto-next scrolly">Next</a-->
 				</section>
