@@ -1793,9 +1793,10 @@
     
     /*background behind box*/
 	body {
+        background-blend-mode: color; 
         background-image:url(../../images/rocketLaunch.jpeg);
         background-size:auto;
-		background-color: gray;
+
 	}
         
 
