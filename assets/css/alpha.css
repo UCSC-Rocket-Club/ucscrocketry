@@ -1793,7 +1793,6 @@
     
     /*background behind box*/
 	body {
-        background-blend-mode: color; 
         background-image:url(../../images/rocketLaunch.jpeg);
         background-size:auto;
 
@@ -1824,7 +1823,7 @@
 		}
 
 	strong, b {
-		color: #646464;
+		color: whitesmoke;
 		font-weight: 400;
 	}
 
@@ -1837,7 +1836,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: gray;
+		color: white;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
@@ -1985,9 +1984,10 @@
 		}
 
 		header.major p {
+            text-align: left; 
 			display: inline-block;
 			border-top: solid 2px #e5e5e5;
-			color: #777;
+			color: white;
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 			font-style: normal;
@@ -2191,9 +2191,9 @@
 /* Box */
 
 	.box {
-		background: #fff;
+		background: rgba(17, 17, 17, 0.68);
 		border-radius: 6px;
-		box-shadow: 0 2px 0 0 #e5e5e5;
+		box-shadow: 0 0px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
 		padding: 3em;
 	}
