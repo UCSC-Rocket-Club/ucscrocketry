@@ -3001,7 +3001,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #e89980;
+				background: lightgray;
 				color: #ffffff;
 			}
 
@@ -3457,7 +3457,177 @@
 				background: #2b2b2b;
 				color: #bbb;
 			}
+        
+        /*code for the titlebar stuff*/
+			#titleBar {
+				-moz-backface-visibility: hidden;
+				-webkit-backface-visibility: hidden;
+				-ms-backface-visibility: hidden;
+				backface-visibility: hidden;
+				-moz-transition: -moz-transform 0.5s ease;
+				-webkit-transition: -webkit-transform 0.5s ease;
+				-ms-transition: -ms-transform 0.5s ease;
+				transition: transform 0.5s ease;
+				display: block;
+				height: 44px;
+				left: 0;
+				position: fixed;
+				top: 0;
+				width: 100%;
+				z-index: 10001;
+				background: #272833;
+				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+			}
 
+				#titleBar .title {
+					color: #ffffff;
+					display: block;
+					font-weight: 300;
+					height: 44px;
+					line-height: 44px;
+					text-align: center;
+				}
+
+					#titleBar .title a {
+						color: inherit;
+						border: 0;
+					}
+
+				#titleBar .toggle {
+					text-decoration: none;
+					height: 60px;
+					left: 0;
+					position: absolute;
+					top: 0;
+					width: 90px;
+					outline: 0;
+					border: 0;
+				}
+
+					#titleBar .toggle:before {
+						-moz-osx-font-smoothing: grayscale;
+						-webkit-font-smoothing: antialiased;
+						font-family: FontAwesome;
+						font-style: normal;
+						font-weight: normal;
+						text-transform: none !important;
+					}
+
+					#titleBar .toggle:before {
+						background: gray;
+						color: rgba(255, 255, 255, 0.5);
+						content: '\f0c9';
+						display: block;
+						font-size: 18px;
+						height: 44px;
+						left: 0;
+						line-height: 44px;
+						position: absolute;
+						text-align: center;
+						top: 0;
+						width: 54px;
+					}
+        /*end of ashwins code 2*/
+        /*ASHWINS CODE*/
+        
+        #navigationPanel {
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-transform: translateX(-275px);
+	-webkit-transform: translateX(-275px);
+	-ms-transform: translateX(-275px);
+	transform: translateX(-275px);
+	-moz-transition: -moz-transform 0.5s ease;
+	-webkit-transition: -webkit-transform 0.5s ease;
+	-ms-transition: -ms-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	display: block;
+	height: 100%;
+	left: 0;
+	overflow-y: auto;
+	position: fixed;
+	top: 0;
+	width: 275px;
+	z-index: 10002;
+	background: #181920;
+	padding: 0.75em 1.25em;
+}
+
+	#navigationPanel .link {
+		border: 0;
+		border-top: solid 1px rgba(255, 255, 255, 0.05);
+		color: rgba(255, 255, 255, 0.75);
+		display: block;
+		height: 3em;
+		line-height: 3em;
+		text-decoration: none;
+	}
+
+		#navigationPanel .link:hover {
+			color: inherit !important;
+		}
+
+		#navigationPanel .link:first-child {
+			border-top: 0;
+		}
+
+		#navigationPanel .link.depth-0 {
+			color: #ffffff;
+			font-weight: 300;
+		}
+
+		#navigationPanel .link .indent-1 {
+			display: inline-block;
+			width: 1.25em;
+		}
+
+		#navigationPanel .link .indent-2 {
+			display: inline-block;
+			width: 2.5em;
+		}
+
+		#navigationPanel .link .indent-3 {
+			display: inline-block;
+			width: 3.75em;
+		}
+
+		#navigationPanel .link .indent-4 {
+			display: inline-block;
+			width: 5em;
+		}
+
+		#navigationPanel .link .indent-5 {
+			display: inline-block;
+			width: 6.25em;
+		}
+
+body.navigationPanel-visible #page-wrapper {
+	-moz-transform: translateX(275px);
+	-webkit-transform: translateX(275px);
+	-ms-transform: translateX(275px);
+	transform: translateX(275px);
+}
+
+body.navigationPanel-visible #titleBar {
+	-moz-transform: translateX(275px);
+	-webkit-transform: translateX(275px);
+	-ms-transform: translateX(275px);
+	transform: translateX(275px);
+}
+
+body.navigationPanel-visible #navigationPanel {
+	-moz-transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+}
+        
+        
+        
+/*END OF ASHWINS CODE*/
+        
 				#navPanel .link {
 					border-bottom: 0;
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
