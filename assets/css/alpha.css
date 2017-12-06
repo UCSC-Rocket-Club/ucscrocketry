@@ -2196,6 +2196,7 @@
 		box-shadow: 0 0px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
 		padding: 3em;
+
 	}
 
 		.box > :last-child {
@@ -2221,7 +2222,7 @@
 				display: block;
 			}
 
-			.box.features .features-row section {
+			.box.features .features-row section { 
 				float: left;
 				padding: 3em;
 				width: 50%;
