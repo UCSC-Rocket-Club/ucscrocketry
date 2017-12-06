@@ -1584,7 +1584,7 @@
 	}
 
 		a:hover {
-			color: deepskyblue !important;
+			color: dimgray!important;
 			border-bottom-color: transparent;
 		}
 
@@ -3419,7 +3419,7 @@ float:center;
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: deepskyblue;
+						color: dimgray;
 					}
 
 					#header nav ul li > ul {
