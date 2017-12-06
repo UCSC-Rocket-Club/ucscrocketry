@@ -2135,7 +2135,8 @@
 	}
 
 		header.major:after {
-			background: #e44c65;
+            /*accent line */
+			background: #585c63;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -2737,7 +2738,7 @@
 		.button:hover,
 		.button:active {
 			box-shadow: inset 0 0 0 1px #e44c65;
-			color: #e44c65 !important;
+			color: #585c63!important;
 		}
 
 		input[type="submit"]:active,
@@ -3378,7 +3379,7 @@ float:center;
 	opacity: 0.7;
 	border:none;
 }
-/*this is the code for the base navbar */
+/*this is the code for the droptron and subpages */
 #menu {
 	float: right;
 }
