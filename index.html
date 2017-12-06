@@ -1,306 +1,249 @@
 <!DOCTYPE HTML>
 <!--
-	Escape Velocity by HTML5 UP
+	Landed by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Rocket Team at UCSC</title>
+		<title>UCSC Rocketry</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109853160-1"></script>
-			<script>
-			  window.dataLayer = window.dataLayer || [];
-			  function gtag(){dataLayer.push(arguments);}
-			  gtag('js', new Date());
-
-			  gtag('config', 'UA-109853160-1');
-		</script>
-
 	</head>
-	<body class="homepage">
+	<style> /*this code is there to hide navbar on the top, to make sure custom navbar is the only thing seen properly */
+ #header nav {
+			display: none!important;
+	}
+</style>
+	<style type="text/css"> /*this code is there to hide the midpage logo unless on mobile-done cause it looks nicer*/
+  .mobileShow {display: none;}
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-width : 320px)
+    and (max-width : 736px){
+      .mobileShow {display: inline;}
+  }
+</style>
+	<body class="landing">
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<div id="header-wrapper" class="wrapper">
-					<div id="header">
-
-						<!-- Logo -->
-							<div id="logo">
-								<!--h1><a href="index.html">Rocket Team at UCSC</a></h1>
-								<p>A free responsive site template by HTML5 UP</p-->
-                                <video width=100% autoplay muted loop playsinline>
-                                  <source src="graphics/logoInSpace.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                                </video>
-							</div>
-
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li class="current"><a href="index.html">Home</a></li>
-									<!--li>
-										<a href="#">More Info</a>
-										<ul>
-											<li><a href="#">NASA Student Launch</a></li>
-											<li><a href="#">Our Rocket</a></li>
-											<li><a href="#">Documentation</a></li>
-											<li>
-												<a href="#">Other Things</a>
-												<ul>
-													<li><a href="#">Random Page 1</a></li>
-													<li><a href="#">Some other page</a></li>
-													<li><a href="#">page 2</a></li>
-													<li><a href="#">page3</a></li>
-													<li><a href="#">page 4</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Nisl tempus</a></li>
-										</ul>
-									</li-->
-									<li><a href="documents.html">2018 NASA SL Docs</a></li>
-									<li><a href="Team.html">Our Team</a></li>
-									<li><a href="Donate.html">Donate</a></li>
-									<li><a href="Sponsors.html">Sponsors</a></li>
-									<!--li><a href="teaminfo.html">About</a></li-->
+				<header id="header">
+					<!-- TOP LEFT HAND CORNER TEXT h1 id="logo"><a href="index.html">Landed</a></h1-->
+					<!-- commenting out just for now to test alternate navbar style<nav id="nav"> -->
+					<div class="navigation-bar">
+ 					<!-- changed navbar to navigation-bar class, so dont use "nav" anymore if you want this particular layout.
+					the specific CSS code for this is found in main.css around 3370 or so -->
+<nav id="nav"> <!--this navbar is there NOT for actual navigation but to help display
+	                 navigation in mobile ONLY. Will keep this until a workaround is discovered -->
+	<ul>
+									<li><h1 id="logo"><a href="index.html">Rocketry at UCSC</a></span></li>
+									<li><a href="mission.html">Mission</a></li>
+									<li><a href="team.html">Team</a></li>
+									<li><a href="documents.html">Documentation</a></li>
 									<li><a href="outreach.html">Outreach</a></li>
-								</ul>
-							</nav>
+									<li><a href="sponsors.html">Sponsors</a></li>
+									<li><a href="outreach.html">Contact Us</a></li>
+	</ul>
+</nav>
+<!--end pseudo navbar for mobile ^^ -->
+<!--REAL Navbar that has logo and is centered starts here -->
+	 <div id="navigation-container">
+						<ul>
+                            <li><a href="mission.html">Mission</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="documents.html">Documentation</a></li>
 
-					</div>
-				</div>
+                            <li><a href="index.html"><span><img src="graphics/RTCircle_v5.png" alt="logo" width="10%" height="10%"/></a></span></li>
 
-			<!-- Intro -->
-				<div id="intro-wrapper" class="wrapper style1">
+                            <li><a href="outreach.html">Outreach</a></li>
+                            <li><a href="sponsors.html">Sponsors</a></li>
+                            <li><a href="outreach.html">Contact Us</a></li>
 
-                        <article class="box post">
-                            <header class="style1">
-                                <!-- <h2>Home</h2> -->
-                            </header>
-													</acticle>
-                        <article class="box post">
-
-					<section id="intro" class="container">
-						<!-- <p class="style1">So in case you were wondering what this is all about ...</p-->
-                        <h2 style="text-align: left">Our Mission: </h2>
-						<p style="text-align: left">
-							To promote and perform research in the field of aeronautics, with a focus on the development of rockets capable of supporting scientific payloads.<br>
-
-                            This year, our team will be competing in the 2018 NASA Student Launch Competition. This will require the development of a high powered model rocket capable of delivering an experimental payload to an altitude of exactly 1 mile.
-						</p>
-						<a href="#" class="image featured">
-							<img src="teamphotos/grassFieldLaunch.JPG" alt="" width=100% />
-						</a>
-
-						<ul class="actions">
-							<li><a href="outreach.html" class="button style3 big">Proceed</a></li-->
+							<!--SIGN UP BUTTON li><a href="#" class="button special">Sign Up</a></li-->
 						</ul>
-					</section>
-				</div>
-
-			<!-- Main -->
-				<!--div class="wrapper style2"-->
-					<!--div class="title">The Details</div>
-					<div id="main" class="container"-->
-
-						<!-- Image -->
-							<!--a href="#" class="image featured">
-								<img src="images/pic01.jpg" alt="" />
-							</a-->
-
-						<!-- Features -->
-							<!-- <section id="features"> -->
-							<!-- </section> -->
-								<!--header class="style1">
-									<h2>Our Team something something random shit here</h2>
-									<p>more utterly random stuff idk what goes here</p>
-								</header>
-								<div class="feature-list">
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-comment">some section forums?</h3>
-												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-											</section>
-										</div>
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-refresh">This icon is pointless</h3>
-												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-											</section>
-										</div>
-									</div>
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-picture-o">photos of our team maybe</h3>
-												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-											</section>
-										</div>
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-cog">why the hell is a settings icon here</h3>
-												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-											</section>
-										</div>
-									</div>
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-wrench">another pointless icon</h3>
-												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-											</section>
-										</div>
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-check">our requirements?</h3>
-												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
-											</section>
-										</div>
-									</div>
-								</div-->
-								<!--ul class="actions actions-centered">
-									<li><a href="#" class="button style1 big">Get Started</a></li>
-									<li><a href="#" class="button style2 big">More Info</a></li>
-								</ul>
-							</section>
-
 					</div>
-				</div-->
+				</div>
+					<!-- commenting out for now </nav> -->
+				</header>
 
-			<!-- Highlights -->
-				<!--div class="wrapper style3">
-					<div class="title">The Endorsements(maybe a sponsors page?)</div>
-					<div id="highlights" class="container">
-						<div class="row 150%">
-							<div class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-									<h3><a href="#">random sponsor 1</a></h3>
-									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">random sponsor 2</a></h3>
-									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-									<h3><a href="#">random sponsor 3</a></h3>
-									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Rocket Team At UCSC</h2>
+							<p style="text-align: center">Advancing STEM Education.<br />
+							Empowering Students.</p>
+						</header>
+						<div class="mobileShow">
+							 <span class="image"><img src="graphics/RTCircle_v5.png" alt="" /></span>
+            </div>
+					</div>
+					<!-- SCROLL DOWN ARROW a href="#one" class="goto-next scrolly">Next</a-->
+					<!-- <p style="text-align: center"><ul class="copyright"> -->
+						<!-- <li>&copy; Rocketry at UCSC. All rights reserved.</li></p> -->
+				</section>
+
+			<!-- One -->
+				<!--section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>Odio faucibus ipsum integer consequat</h2>
+										<p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p>Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
+									Blandit orci porttitor semper. Arcu phasellus tortor enim mi
+									nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
+									augue varius tempus lobortis porttitor accumsan consequat
+									adipiscing lorem dolor.</p>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<p>Morbi enim nascetur et placerat lorem sed iaculis neque ante
+									adipiscing adipiscing metus massa. Blandit orci porttitor semper.
+									Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
+									mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
+									ipsum dolor nullam.</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div-->
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<!--section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Interdum amet non magna accumsan</h2>
+							<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+						</header>
+						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<!--section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Interdum felis blandit praesent sed augue</h2>
+							<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
+						</header>
+						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Four -->
+				<!--section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Accumsan sed tempus adipiscing blandit</h2>
+							<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-area-chart"></span>
+									<h3>Ipsum sed commodo</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="4u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-comment"></span>
+									<h3>Eleifend lorem ornare</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="4u$ 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-flask"></span>
+									<h3>Cubilia cep lobortis</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="4u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-paper-plane"></span>
+									<h3>Non semper interdum</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-file"></span>
+									<h3>Odio laoreet accumsan</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="4u$ 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-lock"></span>
+									<h3>Massa arcu accumsan</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+							</div>
+						</div>
+						<footer class="major">
+							<ul class="actions">
+								<li><a href="#" class="button">Magna sed feugiat</a></li>
+							</ul>
+						</footer>
+					</div>
+				</section>
+
+			<!-- Five -->
+				<!--section id="five" class="wrapper style2 special fade">
+					<div class="container">
+						<header>
+							<h2>Magna faucibus lorem diam</h2>
+							<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+						</header>
+						<form method="post" action="#" class="container 50%">
+							<div class="row uniform 50%">
+								<div class="8u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
+								<div class="4u$ 12u$(xsmall)"><input type="submit" value="Get Started" class="fit special" /></div>
+							</div>
+						</form>
+					</div>
+				</section>
 
 			<!-- Footer -->
-				<div id="footer-wrapper" class="wrapper">
-					 <div class="title">About us</div>
-					<div id="footer" class="container">
-						<header class="style1">
-							<h2>Our Goal</h2>
-							<p>
-								The Rocket Team at UC Santa Cruz was selected to participate in the NASA Student Launch Initiative this year, for the first time. The NASA Student Initiative is a national collegiate competition with specific technical challenges that culminates in an advanced high powered model rocket with onboard electronics. Our mission is to promote and perform research in the field of aeronautics, with a focus on the development of a rocket capable of supporting small scientific payloads.The team is currently partnering with the Earth Science Department to perform novel research on cloud turbulence. The team provides a real-world STEM learning experience for the students involved, and the larger community through outreach to local schools. We are fostering an environment that immerses and trains students in the professional world of STEM.
-							</p>
-						</header>
-						<hr />
-						<div class="row 150%">
-							<div class="6u 12u(mobile)">
+				<!-- <footer id="footer"> -->
+					<!--ul class="icons">
+						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul-->
+					<!-- <p style="text-align: center"><ul class="copyright"> -->
+						<!-- <li>&copy; Rocketry at UCSC. All rights reserved.</li><li>Design: Ashwin Balaguru, Skyler Stewart</li> -->
+					<!-- </ul></p> -->
+				<!-- </footer> -->
 
-								<!-- Contact Form -->
-	                <section>
-										<header class="style1"><div align="center"><h2></h2></div></header>
-	                  <form method="post" action="mailto:ucscrocketclub@gmail.com" enctype="text/plain">
-	                    <div class="row 50%">
-	                      <div class="6u 12u(mobile)">
-	                        <input type="text" name="name" id="contact-name" placeholder="Name" />
-	                      </div>
-	                      <div class="6u 12u(mobile)">
-	                        <input type="text" name="email" id="contact-email" placeholder="Email" />
-	                      </div>
-	                    </div>
-	                    <div class="row 50%">
-	                      <div class="12u">
-	                        <textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
-	                      </div>
-	                    </div>
-	                    <div class="row">
-	                      <div class="12u">
-	                        <ul class="actions">
-	                          <li><input type="submit" class="style1" value="Send" /></li>
-	                          <li><input type="reset" class="style2" value="Reset" /></li>
-	                        </ul>
-	                      </div>
-	                    </div>
-	                  </form>
-	                </section>
+		</div>
 
-	            </div>
-	            <div class="6u 12u(mobile)">
-
-	              <!-- Contact -->
-								<section>
-							<header class="style1"><div align="center"><h2>Contact Us!</h2></div></header>
-							<dl class="alt">
-								<div align="center"><dt><strong>Address:</strong></dt></div>
-								<div align="center"><dd>1156 High St, Santa Cruz, CA 95064 &bull; USA</dd></div>
-								<div align="center"><dt><strong>Email:</strong></dt></div>
-								<div align="center"><dd><a href="mailto:ucscrocketclub@gmail.com">ucscrocketclub@gmail.com</a></dd></div>
-							</dl>
-							<span>
-								<div align="center">
-							<ul class="icons">
-								<a href="https://www.facebook.com/SantaCruzRockets/" class="icon fa-facebook alt"><span class="label">Facebook</span></a>
-								<a href="https://www.instagram.com/ucscrocketry" class="icon fa-instagram alt"><span class="label">Instagram</span></a>
-								<a href="https://github.com/UCSC-Rocket-Club" class="icon fa-github alt"><span class="label">GitHub</span></a>
-							</ul>
-						</div>
-							</span>
-
-						</section>
-
-	            </div>
-	          </div>
-	          <hr />
-	        </div>
-	        <div id="copyright">
-	          <ul>
-	            <li>&copy; Rocketry at UCSC</li><li>Design by: <a href="#">Catherine Lee, Skyler Stewart, Ashwin Balaguru</a></li>
-	          </ul>
-	        </div>
-	      </div>
-
-	  <!--/div-->
-
-	  <!-- Scripts -->
-
-	    <script src="assets/js/jquery.min.js"></script>
-	    <script src="assets/js/jquery.dropotron.min.js"></script>
-	    <script src="assets/js/skel.min.js"></script>
-	    <script src="assets/js/skel-viewport.min.js"></script>
-	    <script src="assets/js/util.js"></script>
-	    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	    <script src="assets/js/main.js"></script>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
 	</body>
-	</html>
+</html>
