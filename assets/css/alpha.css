@@ -2804,7 +2804,9 @@
 	}
 
 	#header {
-		background: #444;
+        
+        /*1234*/
+		background: #272833;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -3937,24 +3939,3 @@ body.navigationPanel-visible #navigationPanel {
 	}
 
 
-/*Skyler edits*/
- /*rounds square images*/
-        .circular--square {
-            border-radius: 50%;
-        }
-        
-        /*rounds landscape rectangle images*/
-        .circular--landscape {
-          display: inline-block;
-          position: relative;
-          width: 200px;
-          height: 200px;
-          overflow: hidden;
-          border-radius: 50%;
-        }
-
-        .circular--landscape img {
-          width: auto;
-          height: 100%;
-          margin-left: -50px;
-        }
