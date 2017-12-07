@@ -2806,7 +2806,7 @@
 	#header {
         
         /*1234*/
-		background: #272833;
+		background: rgba(28, 29, 38, 0.82);
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
