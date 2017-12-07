@@ -16,6 +16,29 @@
 	<body>
         
         
+<style>
+ /*rounds square images*/
+        .circular--square {
+            border-radius: 50%;
+        }
+        
+        /*rounds landscape rectangle images*/
+        .circular--landscape {
+          display: inline-block;
+          position: relative;
+          width: 200px;
+          height: 200px;
+          overflow: hidden;
+          border-radius: 50%;
+        }
+
+        .circular--landscape img {
+          width: auto;
+          height: 100%;
+          margin-left: -50px;
+        }
+   </style>
+        
         <div id="page-wrapper">
 
 			<!-- Header -->
@@ -34,7 +57,9 @@
                         </nav>
 				</header>
 
+
 			<!-- Main -->
+            <div class="wrapper style1">
 				<section id="main" class="container">
 					<header>
 						<h2>Team</h2>
@@ -292,7 +317,7 @@
 						
 					</div>
 				</section>
-
+            </div>
 			<!-- Footer -->
 				<!--footer id="footer">
 					<ul class="icons">
