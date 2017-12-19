@@ -1793,8 +1793,9 @@
     
     /*background behind box*/
 	body {
-        background-image:url(../../images/rocketLaunch.jpeg);
-        background-size:auto;
+        background-image:url(../../teamphotos/dec9launch2.png);
+        background-size:cover;
+        background-attachment: fixed;
 
 	}
         
@@ -1989,7 +1990,7 @@
 			border-top: solid 2px #e5e5e5;
 			color: white;
 			margin: 1.5em 0 0 0;
-			padding: 1.5em 0 0 0;
+			padding: 1.5em 0 1.5em 0;
 			font-style: normal;
 		}
 
