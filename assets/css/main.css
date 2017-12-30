@@ -3462,10 +3462,11 @@ float:center;
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.65), rgba(23, 24, 32, 0.35)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.65), rgba(23, 24, 32, 0.35)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.65)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.65)), url("images/overlay.png");;
+            /*change the linear gradient rgba values (last one) to adjust overlay on main banner image*/
+			/*background-image: -moz-linear-gradient(top, rgba(23, 24, 50, 0.25), rgba(23, 24, 50, 0.10)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 50, 0.25), rgba(23, 24, 50, 0.10)), url("images/overlay.png");;*/
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 50, 0.55), rgba(23, 24, 50, 0.55)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 50, 0.25), rgba(23, 24, 50, 0.65)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
