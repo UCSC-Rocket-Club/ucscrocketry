@@ -1814,8 +1814,8 @@
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: solid 1px;
-		color: white;
+		border-bottom: solid 0px;
+		color: transparent;
 		text-decoration: none;
 	}
 
@@ -2192,7 +2192,7 @@
 /* Box */
 
 	.box {
-		background: rgba(28, 29, 38, 0.82);
+		background: rgba(28, 29, 38, 0.70);
 		border-radius: 6px;
 		box-shadow: 0 0px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
@@ -2458,7 +2458,7 @@
 				}
 
 				ul.icons li .icon {
-					color: inherit;
+					color: white;
 				}
 
 					ul.icons li .icon:before {
@@ -2807,7 +2807,7 @@
 	#header {
         
         /*1234*/
-		background: rgba(28, 29, 38, 0.82);
+		background: rgba(28, 29, 38, 0.70);
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
