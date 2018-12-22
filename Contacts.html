@@ -14,30 +14,88 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <link rel="icon" href="graphics/RTCircle_v6_withBackground.png">
 	</head>
-    
-	<body>
-		<div id="page-wrapper">
 
-			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="mission.html">Mission</a></li>
-                            <li><a href="team.html">Team</a></li>
-							<li><a href="documents.html">Documentation</a></li>
-                            <li><a href="outreach.html">Outreach</a></li>
-							<li class="current"><a href="sponsors.html">Sponsors</a></li>
-							<!--li><a href="teaminfo.html">About</a></li-->
-							<li><a href="Contacts.html">Contact Us</a></li>
+	<style>
+					.dropdown {
+					  float: left;
+					  overflow: hidden;
+					}
 
-						</ul>
-					</nav>
-				</header>
+					.dropdown .dropbtn {
+					  font: inherit;
+					  border: none;
+					  outline: none;
+						padding: 0px 18px;
+					  color: white;
+					  background-color: inherit;
+					  margin: 0;
+					}
+
+					.navbar a:hover, .dropdown:hover .dropbtn {
+					  background-color: gold;
+					}
+
+					.dropdown-content {
+					  display: none;
+					  position: absolute;
+						background: rgba(28, 29, 38, 0.70);
+					  min-width: 130px;
+					  box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
+					  z-index: 1;
+					}
+
+					.dropdown-content a {
+					  float: none;
+					  color: white;
+					  padding: 8px 6px;
+					  text-decoration: none;
+					  display: block;
+					  text-align: left;
+					}
+
+					.dropdown-content a:hover {
+					  background-color: #ddd;
+					}
+
+					.dropdown:hover .dropdown-content {
+					  display: block;
+					}
+	   </style>
+
+	        <div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1 id="logo"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></h1>
+	                        <nav id="nav">
+	                            <ul>
+	                                <li><a href="mission.html">Mission</a></li>
+																		<div class="dropdown">
+																			<a href="team.html">
+																			<button class="dropbtn">
+																	     Team
+																	      <i class="fa fa-caret-down"></i>
+																	    </button>
+																		</a>
+																	    <div class="dropdown-content">
+																	      <a href="Payload.html">Payload</a>
+																	      <a href="ADAS.html">ADAS</a>
+																	      <a href="Airframe.html">Airframe</a>
+																				<a href="Recovery.html">Recovery</a>
+																	    </div>
+																	  </div>
+	                                <li ><a href="documents.html">Documentation</a></li>
+	                                <li><a href="outreach.html">Outreach</a></li>
+	                                <li><a href="sponsors.html">Sponsors</a></li>
+	                                <!--li><a href="teaminfo.html">About</a></li-->
+	                                <li><a href="Contacts.html">Contact Us</a></li>
+	                            </ul>
+	                        </nav>
+					</header>
 
 			<!-- Main -->
       <section id="main" class="container">
-          
+
 					<header>
                         <header class="style1"><div align="center"><h2 style="color: white">Contact Us</h2></div></header>
 					</header>
@@ -46,7 +104,7 @@
                     <dl class="alt">
                             <div align="center"><dt><strong>Address:</strong></dt></div>
                             <div align="center"><dd style="color: white">1156 High St, Santa Cruz, CA 95064 &bull; USA<br><br></dd></div>
-      
+
                             <div align="center"><dt><strong>Email:</strong></dt></div>
                             <div align="center"><dd><a href="mailto:ucscrocketclub@gmail.com"><b>ucscrocketclub@gmail.com</b></a></dd></div>
                       </dl>
