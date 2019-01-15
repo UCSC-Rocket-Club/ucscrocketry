@@ -14,25 +14,83 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <link rel="icon" href="graphics/RTCircle_v6_withBackground.png">
 	</head>
-	<body>
+
+	<style>
+	.dropdown {
+		float: left;
+		overflow: hidden;
+	}
+
+	.dropdown .dropbtn {
+		font: inherit;
+		border: none;
+		outline: none;
+		padding: 0px 18px;
+		color: white;
+		background-color: inherit;
+		margin: 0;
+	}
+
+	.navbar a:hover, .dropdown:hover .dropbtn {
+		background-color: gold;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background: rgba(28, 29, 38, 0.70);
+		min-width: 130px;
+		box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.dropdown-content a {
+		float: none;
+		color: white;
+		padding: 8px 6px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+
+	.dropdown-content a:hover {
+		background-color: #ddd;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+</style>
+
 		<div id="page-wrapper">
 
-			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="mission.html">Mission</a></li>
-                            <li><a href="team.html">Team</a></li>
-							<li><a href="documents.html">Documentation</a></li>
-                            <li><a href="outreach.html">Outreach</a></li>
-							<li class="current"><a href="sponsors.html">Sponsors</a></li>
-							<!--li><a href="teaminfo.html">About</a></li-->
-							<li><a href="Contacts.html">Contact Us</a></li>
-
-						</ul>
-					</nav>
-				</header>
+	<!-- Header -->
+		<header id="header">
+			<h1 id="logo"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></h1>
+										<nav id="nav">
+												<ul>
+														<div class="dropdown">
+															<a href="team.html">
+															<button class="dropbtn">
+															 Team
+																<i class="fa fa-caret-down"></i>
+															</button></a>
+															<div class="dropdown-content">
+																<a href="Payload.html">Payload</a>
+																<a href="ADAS.html">ADAS</a>
+																<a href="Airframe.html">Airframe</a>
+																<a href="Recovery.html">Recovery</a>
+															</div>
+														</div>
+														<li><a href="mission.html">Mission</a></li>
+														<li ><a href="documents.html">Documentation</a></li>
+														<li><a href="outreach.html">Outreach</a></li>
+														<li><a href="sponsors.html">Sponsors</a></li>
+														<!--li><a href="teaminfo.html">About</a></li-->
+														<li><a href="Contacts.html">Contact Us</a></li>
+												</ul>
+										</nav>
+		</header>
 
 			<!-- Main -->
 				<section id="main" class="container">
@@ -42,7 +100,7 @@
 					</header>
 					<article class="box post">
 
-						<div class = "notes">
+						<div class = "notes" align="center">
 							<h4>No sponsors for the 2018/2019 Year. Be the first now!</h4>
 						</div>
 
@@ -66,13 +124,28 @@
 				                        <li>Raymond Alves</li>
 				                        <li>Mark Young</li>
                         </ul>
-         
+
 							<h3>Sponsor Us</h3>
 						-->
 
-                            <p><div align="center"><a href="https://www.gofundme.com/" style="color:skyblue" class="button special icon fa-download fit">GoFundMe (TBA)</a><br></div></p>
+              <p><div align="center"><a href="https://www.gofundme.com/" style="color:gold" class="button special icon fa-download fit">GoFundMe (TBA)</a></div></p>
+							<ul class="icons" align="center">
+								<li><a href="#" class="icon fa-btc"><span class="label">Bitcoin</span></a></li>
+								<li><a href="#" class="icon fa-paypal"><span class="label">Paypal</span></a></li>
+							</ul>
+
 							<section>
 
+							<h3 align="center">Send us a Message!</h3>
+
+							<ul class="icons" align="center">
+								<li><h4><a href="https://mail.google.com/mail/?view=cm&fs=1&to=ucscrocketclub@gmail.com&su=Sponsorship">Gmail</a></h4></li>
+								<li><h4><a href="http://webmail.aol.com/Mail/ComposeMessage.aspx?to=ucscrocketclub@gmail.com&su=Sponsorship">AOL.</a></h4></li>
+								<li><h4><a href="http://compose.mail.yahoo.com/?to=ucscrocketclub@gmail.com&su=Sponsorship">Yahoo</a></h4></li>
+								<li><h4><a href="http://mail.live.com/mail/EditMessageLight.aspx?n=&to=ucscrocketclub@gmail.com&su=Sponsorship">Outlook</a></h4></li>
+							</ul>
+						</section>
+								<!--
 								<form method="post" action="mailto:ucscrocketclub@gmail.com" enctype="text/plain">
 									<div class="row uniform 50%">
 										<div class="6u 12u$(xsmall)">
@@ -103,6 +176,7 @@
 							</section>
 						</article>
 					</section>
+				-->
 
 			<!-- Footer -->
 			<!--footer id="footer">
