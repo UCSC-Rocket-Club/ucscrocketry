@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <!--
 	Landed by HTML5 UP
@@ -30,6 +31,57 @@
     and (max-width : 736px){
       .mobileShow {display: inline;}
   }
+
+	.dropdown {
+		float: left;
+		overflow: hidden;
+	}
+
+		.dropdown .dropbtn {
+		font: inherit;
+		border: none;
+		position: relative;
+		outline: none;
+		padding: 0px 18px;
+		color: white;
+		background-color: inherit;
+		margin: 0;
+	}
+
+	.navbar a:hover, .dropdown:hover .dropbtn {
+		background-color: gold;
+		position: relative;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: relative;
+		background: rgba(28, 29, 38, 0.70);
+		min-width: 130px;
+		box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.dropdown-content a {
+		float: none;
+		color: white;
+		padding: 8px 6px;
+		text-decoration: none;
+		position: relative;
+		display: block;
+		text-align: left;
+	}
+
+	.dropdown-content a:hover {
+		background-color: #ddd;
+		position: relative;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+		position: relative;
+	}
+
 </style>
 	<body class="landing">
 		<div id="page-wrapper">
@@ -60,7 +112,24 @@
                     <div id="navigation-container">
 						<ul>
                             <li><a href="mission.html"><b>Mission</b></a></li>
-														<li><a href="Leads.html"><b>Team</b></a></li>
+														<li>
+														<div
+														<div class="dropdown">
+															<a href="Leads.html">
+															<button class="dropbtn">
+															 Team
+																<i class="fa fa-caret-down"></i>
+															</button>
+														</a>
+															<div class="dropdown-content">
+																<a href="Leads.html">Leadership</a>
+																<a href="Payload.html">Payload</a>
+																<a href="ADAS.html">ADAS</a>
+																<a href="Airframe.html">Airframe</a>
+																<a href="Recovery.html">Recovery</a>
+															</div>
+														</div>
+													</li>
                             <li><a href="documents.html"><b>Documentation</b></a></li>
 
                             <li><a href=""><img src="graphics/RTCircle_v5.png" alt="logo" width="15%" height="15%" style="vertical-align: middle; padding-top: 1em"/></a></li>
@@ -70,7 +139,7 @@
                             <li><a href="Contacts.html"><b>Contact Us</b></a></li>
 
 						</ul>
-					</div>
+				</div>
 				</div>
 					<!-- commenting out for now </nav> -->
 				</header>
