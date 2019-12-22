@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>New Member Guide</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/alpha.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <link rel="icon" href="graphics/RTCircle_v6_withBackground.png">
+	</head>
+	<body>
+
+
+<style>
+ /*rounds square images*/
+        .circular--square {
+            border-radius: 50%;
+        }
+
+ /*rounds landscape rectangle images*/
+        .circular--landscape {
+          display: inline-block;
+          position: relative;
+          width: 200px;
+          height: 200px;
+          overflow: hidden;
+          border-radius: 50%;
+        }
+
+        .circular--landscape img {
+          width: auto;
+          height: 100%;
+          margin-left: -50px;
+        }
+
+				.dropdown {
+				  float: left;
+				  overflow: hidden;
+				}
+
+				.dropdown .dropbtn {
+				  font: inherit;
+				  border: none;
+				  outline: none;
+					padding: 0px 18px;
+				  color: white;
+				  background-color: inherit;
+				  margin: 0;
+				}
+
+				.navbar a:hover, .dropdown:hover .dropbtn {
+				  background-color: gold;
+				}
+
+				.dropdown-content {
+				  display: none;
+				  position: absolute;
+					background: rgba(28, 29, 38, 0.70);
+				  min-width: 130px;
+				  box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
+				  z-index: 1;
+				}
+
+				.dropdown-content a {
+				  float: none;
+				  color: white;
+				  padding: 8px 6px;
+				  text-decoration: none;
+				  display: block;
+				  text-align: left;
+				}
+
+				.dropdown-content a:hover {
+				  background-color: #ddd;
+				}
+
+				.dropdown:hover .dropdown-content {
+				  display: block;
+				}
+   </style>
+
+        <div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></h1>
+                        <nav id="nav">
+                            <ul>
+                                <li><a href="mission.html">Mission</a></li>
+                                <div class="dropdown">
+                                <a href="Leads.html">
+                                    <button class="dropbtn">
+                                        Team
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                </a>
+                                <div class="dropdown-content">
+                                    <a href="Leads.html">Leadership</a>
+                                    <a href="Payload.html">Payload</a>
+                                    <a href="ADAS.html">ADAS</a>
+                                    <a href="Airframe.html">Airframe</a>
+                                    <a href="Recovery.html">Recovery</a>
+                                </div>
+                            </div>
+                                <li ><a href="documents.html">Documentation</a></li>
+                                <li><a href="outreach.html">Outreach</a></li>
+                                <li><a href="sponsors.html">Sponsors</a></li>
+                                <!--li><a href="teaminfo.html">About</a></li-->
+                                <li><a href="Contacts.html">Contact Us</a></li>
+                            </ul>
+                        </nav>
+				</header>
+
+
+			<!-- Main -->
+            <div class="wrapper style1">
+				<section id="main" class="container">
+
+                 <header>
+                    <div align="center"><h2 style="color: white">Adaptive Aerobraking System (ADAS)</h2></div>
+                </header>
+
+
+
+					<div class="box">
+
+
+
+                        <!--First row (team photo, description)-->
+						<div id="intro" align="center">
+						<img src="ADASPics/ADAS_team.jpg" alt="design photo" width="100%" height="100%"/>
+						<div align="center"><h3 style="padding-top:1em">About</h3></div>
+						<div class="row" align="center">
+                            <p>
+                                The Rocket Team at UCSC is a student group dedicated to the building, launching, and testing of rockets. The team is open to anyone, regardless of skill level or experience, as long as you have a passion for building things and you’re willing to learn. There are opportunities for people of all majors. We’re always welcoming new members year-round!
+                            </p>
+                            <p>
+                                The team was founded in 2017, and has participated in NASA’s Student Launch Initiative (SLI) all 3 years. This is an annual competition where we compete against other universities to launch our rocket to an exact height (about a mile) and build a payload experiment (this year it’s a drone)! If everything goes well, we will go to Huntsville, Alabama to NASA for the competition in early Spring quarter. Outside of SLI (which ends Spring quarter), we also have made plans to L1 Certifications, launch model rockets, compete in an Alka-seltzer rocket competition. 
+                            </p>
+                            <p>
+                                There are 5 teams: ADaptive Aero-breaking System (ADAS), Payload, Airframe, Recovery, and Outreach. Click on the Teams tab to learn more about what each team does! There are a wide variety of skills that are used on each team, including microcontroller programming, electronics (PCB design, using standard EE tools), 3D modeling (CAD), applied physics and math, painting, CNC, and using manual tools. 
+                            </p>
+                            <p>
+                                The Rocket Team is a great way to gain real-world engineering skills, meet bright and friendly people, get involved on local community service by teaching kids physics through rocketry, get leadership positions, and have fun building and launching rockets!
+                            </p>
+
+            </div>
+						<img src="ADASPics/flowsimFullADAS.gif" alt="design photo" width="40%" height="40%"/>
+
+
+						<!-- Second row (documentation and technical stuff)-->
+
+						<div align="center"><h4 style="padding-top:1em">Design documentation</h4></div>
+
+						<span>
+										<div align="center">
+												<li style="padding-top: 1em; list-style: none;"><a href="docs/Algorithm Documentation.pdf"class="button special icon fa-download fit">Math and Algotithm Information</a></li>
+										</div>
+										<p></p>
+
+										 <div align="center">
+												<li style="list-style: none;"><a href="ADASPics" class="button special icon fa-download fit">CAD pictures</a></li>
+										 </div>
+										 <p></p>
+
+										<div align="center">
+												<li style="list-style: none;"><a href="docs/University of California Santa Cruz - 2019 - PDR Slides.pdf"class="button special icon fa-download fit">PDR Presentation Slides</a></li>
+										</div>
+										<p></p>
+						</span>
+
+
+						<!--Third row-->
+						<div align="center">
+						<h3 style="text-align: center; padding-top: 2em">Our Team Members</h3>
+						<div class="row">
+
+							<div class="6u 12u(mobilep)">
+								<h4>Lia Gianfortone</h4>
+								<img src="graphics/RTCircle_v5.png" alt="lia" width="30%"/>
+                <h5>Team Lead | Error control coding PhD candidate</h5>
+								<h5>As one of the team leads, my responsibilites include setting design specifications for our component and helping to make sure our team does
+								the best we can to meet them! In addition, I am also the principal developer for our PID algorithm and write the code to control our golden tube.</h5>
+							</div>
+
+							<div class="6u 12u(mobilep)">
+								<h4>Gavin Chen</h4>
+								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
+                <h5>Team Lead | CS Major EE Minor Class of 2019</h5>
+								<h5>As one of the team leads, I help create our designs and facilitate organization within the team to make sure we're reaching the goals we set
+								for ourselves. My development role on the team is to help with the programming of our embedded system and make sure we do physcially what we program. </h5>
+							</div>
+
+							<div class="6u 12u(mobilep)">
+								<h4>Julio Sandino</h4>
+								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
+                <h5>Member | </h5>
+								<h5></h5>
+							</div>
+
+							<div class="6u 12u(mobilep)">
+								<h4>Ryan Taylor</h4>
+								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
+                <h5>Member | </h5>
+								<h5><h5>
+							</div>
+
+							<div class="6u 12u(mobilep)">
+								<h4>Name</h4>
+								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
+                <h5>Member | </h5>
+								<h5></h5>
+							</div>
+
+							<div class="6u 12u(mobilep)">
+								<h4>Name</h4>
+								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
+                <h5>Member | </h5>
+								<h5></h5>
+							</div>
+
+							<div class="6u 12u(mobilep)">
+								<h4>Name</h4>
+								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
+                <h5>Member | </h5>
+								<h5></h5>
+							</div>
+
+							<div class="6u 12u(mobilep)">
+								<h4>Name</h4>
+								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
+                <h5>Member | </h5>
+								<h5></h5>
+							</div>
+							<div class="6u 12u(mobilep)">
+								<h4>Name</h4>
+								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
+                <h5>Member | </h5>
+								<h5></h5>
+							</div>
+
+							<div class="6u 12u(mobilep)">
+								<h4>Name</h4>
+								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
+                <h5>Member | </h5>
+								<h5></h5>
+							</div>
+
+						</div>
