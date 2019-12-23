@@ -5,230 +5,252 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Payload</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/alpha.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-        <link rel="icon" href="graphics/RTCircle_v6_withBackground.png">
-	</head>
-	<body>
 
+<head>
+    <title>Payload</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/alpha.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <link rel="icon" href="graphics/RTCircle_v6_withBackground.png">
+</head>
 
-<style>
- /*rounds square images*/
+<body>
+
+    <style>
+        /*rounds square images*/
+        
         .circular--square {
             border-radius: 50%;
         }
-
- /*rounds landscape rectangle images*/
+        /*rounds landscape rectangle images*/
+        
         .circular--landscape {
-          display: inline-block;
-          position: relative;
-          width: 200px;
-          height: 200px;
-          overflow: hidden;
-          border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 50%;
         }
-
+        
         .circular--landscape img {
-          width: auto;
-          height: 100%;
-          margin-left: -50px;
+            width: auto;
+            height: 100%;
+            margin-left: -50px;
         }
 
-								.dropdown {
-								  float: left;
-								  overflow: hidden;
-								}
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        
+        .dropdown .dropbtn {
+            font: inherit;
+            border: none;
+            outline: none;
+            padding: 0px 18px;
+            color: white;
+            background-color: inherit;
+            margin: 0;
+        }
+        
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: gold;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background: rgba(28, 29, 38, 0.70);
+            min-width: 130px;
+            box-shadow: 0px 8px 6px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            float: none;
+            color: white;
+            padding: 8px 6px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
 
-								.dropdown .dropbtn {
-								  font: inherit;
-								  border: none;
-								  outline: none;
-									padding: 0px 18px;
-								  color: white;
-								  background-color: inherit;
-								  margin: 0;
-								}
+    <div id="page-wrapper">
 
-								.navbar a:hover, .dropdown:hover .dropbtn {
-								  background-color: gold;
-								}
+        <!-- Header -->
+        <!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></h1>
+                        <nav id="nav">
+                            <ul>
+                                <li><a href="mission.html">Mission</a></li>
+                                <div class="dropdown">
+                                <a href="Leads.html">
+                                    <button class="dropbtn">
+                                        Team
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                </a>
+                                <div class="dropdown-content">
+                                    <a href="Leads.html">Leadership</a>
+                                    <a href="Payload.html">Payload</a>
+                                    <a href="ADAS.html">ADAS</a>
+                                    <a href="Airframe.html">Airframe</a>
+                                    <a href="Recovery.html">Recovery</a>
+                                </div>
+                            </div>
+                                <li ><a href="documents.html">Documentation</a></li>
+                                <li><a href="outreach.html">Outreach</a></li>
+                                <li><a href="sponsors.html">Sponsors</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="https://calendar.google.com/calendar/embed?src=ucsc.edu_vk9gb6vuep468ol5q4utv0gv3g%40group.calendar.google.com&ctz=America%2FLos_Angeles">Calendar</a></li>
+                                <li><a href="Contacts.html">Contact Us</a></li>
+                            </ul>
+                        </nav>
+				</header>
 
-								.dropdown-content {
-								  display: none;
-								  position: absolute;
-									background: rgba(28, 29, 38, 0.70);
-								  min-width: 130px;
-								  box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
-								  z-index: 1;
-								}
+        <!-- Main -->
+        <div class="wrapper style1">
+            <section id="main" class="container">
 
-								.dropdown-content a {
-								  float: none;
-								  color: white;
-								  padding: 8px 6px;
-								  text-decoration: none;
-								  display: block;
-								  text-align: left;
-								}
-
-								.dropdown-content a:hover {
-								  background-color: #ddd;
-								}
-
-								.dropdown:hover .dropdown-content {
-								  display: block;
-								}
-				   </style>
-
-				        <div id="page-wrapper">
-
-							<!-- Header -->
-								<header id="header">
-									<h1 id="logo"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></h1>
-				                        <nav id="nav">
-				                            <ul>
-				                                <li><a href="mission.html">Mission</a></li>
-																					<div class="dropdown">
-																						<a href="TeamPage.html">
-																						<button class="dropbtn">
-																				     Team
-																				      <i class="fa fa-caret-down"></i>
-																				    </button>
-																					</a>
-																				    <div class="dropdown-content">
-																							<a href="Leads.html">Leadership</a>
-																				      <a href="ADAS.html">ADAS</a>
-																				      <a href="Airframe.html">Airframe</a>
-																							<a href="Recovery.html">Recovery</a>
-																				    </div>
-																				  </div>
-				                                <li ><a href="documents.html">Documentation</a></li>
-				                                <li><a href="outreach.html">Outreach</a></li>
-				                                <li><a href="sponsors.html">Sponsors</a></li>
-				                                <!--li><a href="teaminfo.html">About</a></li-->
-				                                <li><a href="Contacts.html">Contact Us</a></li>
-				                            </ul>
-				                        </nav>
-								</header>
-
-
-			<!-- Main -->
-            <div class="wrapper style1">
-				<section id="main" class="container">
-
-                 <header>
-                    <div align="center"><h2 style="color: white">Payload Subteam</h2></div>
+                <header>
+                    <div align="center">
+                        <h2 style="color: white">Payload Subteam</h2></div>
                 </header>
 
+                <div class="box">
 
+                    <!--First row (team photo, description)-->
+                    <div id="intro">
+                        <div class="row" align="center">
+                            <img src="teamphotos/Payload2019.jpg" alt="design photo" width="50%" height="50%" />
+                            <img src="images/rover2019.jpeg" alt="Slab logo" width="50%" height="50%" />
+                        </div>
+                        <p align="center" style="font-size: 13px; color: lightgray"> 
+                            Payload team in 2018-2019 
+                        </p>
+                        <h3 align="center" style="padding-top:0.8em">Purpose</h3>
+                        <div class="row" align="center">
+                            <p>
+                                Our team is responsible for the design, construction and testing of the payload of the rocket. This year the payload is a drone! This rover is deployed remotely via radio and then autonomously travels to a collection site to collect simulated lunar ice sample. Our drone is a small quadcopter, with a 3D-printed, custom-designed frame designed to be deployed from a 6-inch airframe. 
+                                
+                            <p>
+                                The Payload Team is highly technical, with skills ranging from software (programming Arduinos, reading sensor data, using radio), electrical engineering (designing circuits/custom PCBs, using standard EE tools), technical writing, CAD design/3D Modeling (Fusion 360), and 3D printing. There are three main tasks in Payload development: UAV (building the drone itself), Deployment (ensuring the Payload is successfully and safely deployed at the correct time), and Retention (avoiding any ballistic episodes).
+                            </p>
 
-					<div class="box">
+                        </div>
 
+                        <!-- Second row (documentation and technical stuff)-->
 
+                        <div align="center">
+                            <h3 style="padding-top:1em">Design documentation</h4></div>
+                        
+                        <span>
+                            <div align="center">
+                                    <li style="list-style: none;"><a href="https://github.com/UCSC-Rocket-Club/PayloadSLI2019"class="button special icon fa-git fit">Payload Github</a></li>
+                            </div>
+                            <p></p>
 
-                        <!--First row (team photo, description)-->
-						<div id="intro">
-						<img src="PayloadPics/frrrovefixed.png" alt="design photo" width="100%" height="100%"/>
-						<div align="center"><h3 style="padding-top:1em">Purpose</h3></div>
-						<div class="row" align="center">
-                            <p>Our team is responsible for the design, construction and testing of the payload of the rocket. This year the
-														payload is a rover! This rover is deployed remotely and then autonomously travels 10ft and collects a soil
-														sample. It features an Automated Landing Correction system, and Object Detection and Avoidance system in order to help
-														it complete its mission!</p>
-
-            </div>
-
-
-						<!-- Second row (documentation and technical stuff)-->
-
-						<div align="center"><h4 style="padding-top:1em">Design documentation</h4></div>
-
-						<span>
-										<div align="center">
-												<li style="list-style: none;"><a href="docs/University of California Santa Cruz - 2019 - PDR Slides.pdf"class="button special icon fa-download fit">PDR Presentation Slides</a></li>
-										</div>
-										<p></p>
 						</span>
 
+                        <span>
+                            <div align="center">
+                                    <li style="list-style: none;"><a href="docs/University of California Santa Cruz - 2019 - PDR Slides.pdf"class="button special icon fa-download fit">PDR Presentation Slides</a></li>
+                            </div>
+                            <p></p>
+						</span>
+                        
 
-						<!--Third row-->
-						<div align="center">
-						<h3 style="text-align: center; padding-top: 2em">Our Team Members</h3>
+                        <!--Third row-->
+                        <div align="center">
+                            <h3 style="text-align: center; padding-top: 2em">Our Team Members</h3>
+                            
+                            <p align="center" style="font-size: 13px; color: lightgray"> 
+                                Under construction: photos and bios coming soon!
+                            </p>
 
-						<div class="row">
+                            <div class="row">
 
-							<div class="6u 12u(mobilep)">
-								<h4>Olivia Wong</h4>
-								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
-                <h5>Team Lead | First Year Computer Science Major</h5>
-								<h5></h5>
+                                <div class="6u 12u(mobilep)">
+                                    <h4>Olivia Wong</h4>
+                                    <img src="graphics/RTCircle_v5.png" alt="" width="30%" />
+                                    <h5>Team Co-Lead</h5>
+                                    <h5></h5>
+                                </div>
+
+                                <div class="6u 12u(mobilep)">
+                                    <h4>Rohan Tuli</h4>
+                                    <img src="graphics/RTCircle_v5.png" alt="" width="30%" />
+                                    <h5>Team Co-Lead</h5>
+                                    <h5></h5>
+                                </div>
+
+                                <div class="6u 12u(mobilep)">
+                                    <h4>Cole Malinowski</h4>
+                                    <img src="graphics/RTCircle_v5.png" alt="" width="30%" />
+                                    <h5>Team Co-Lead</h5>
+                                    <h5></h5>
+                                </div>
+
+                                <div class="6u 12u(mobilep)">
+                                    <h4>Ahmed</h4>
+                                    <img src="graphics/RTCircle_v5.png" alt="" width="30%" />
+                                    <h5>Engineer</h5>
+                                    <h5><h5>
 							</div>
 
-							<div class="6u 12u(mobilep)">
-								<h4>Name</h4>
-								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
-                <h5>Member |</h5>
-								<h5></h5>
-							</div>
+							     <div class="6u 12u(mobilep)">
+                                    <h4>Gretl</h4>
+                                    <img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
+                                    <h5>Engineer</h5>
+                                        <h5></h5>
+                                    </div>
 
-							<div class="6u 12u(mobilep)">
-								<h4>Name</h4>
-								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
-                <h5>Member | </h5>
-								<h5></h5>
-							</div>
+                                <div class="6u 12u(mobilep)">
+                                    <h4>Mehul</h4>
+                                    <img src="graphics/RTCircle_v5.png" alt="" width="30%" />
+                                    <h5>Engineer</h5>
+                                    <h5></h5>
+                                </div>
 
-							<div class="6u 12u(mobilep)">
-								<h4>Name</h4>
-								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
-                <h5>Member | </h5>
-								<h5><h5>
-							</div>
+                                <div class="6u 12u(mobilep)">
+                                    <h4>Derek</h4>
+                                    <img src="graphics/RTCircle_v5.png" alt="" width="30%" />
+                                    <h5>Engineer</h5>
+                                    <h5></h5>
+                                </div>
 
-							<div class="6u 12u(mobilep)">
-								<h4>Name</h4>
-								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
-                <h5>Member | </h5>
-								<h5></h5>
-							</div>
+                                <div class="6u 12u(mobilep)">
+                                    <h4>Dora</h4>
+                                    <img src="graphics/RTCircle_v5.png" alt="" width="30%" />
+                                    <h5>Engineer</h5>
+                                    <h5></h5>
+                                </div>
+                                <div class="6u 12u(mobilep)">
+                                    <h4>Lukas</h4>
+                                    <img src="graphics/RTCircle_v5.png" alt="" width="30%" />
+                                    <h5>Engineer</h5>
+                                    <h5></h5>
+                                </div>
 
-							<div class="6u 12u(mobilep)">
-								<h4>Name</h4>
-								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
-                <h5>Member | </h5>
-								<h5></h5>
-							</div>
+                                <div class="6u 12u(mobilep)">
+                                    <h4>Isaac</h4>
+                                    <img src="graphics/RTCircle_v5.png" alt="" width="30%" />
+                                    <h5>Engineer </h5>
+                                    <h5></h5>
+                                </div>
 
-							<div class="6u 12u(mobilep)">
-								<h4>Name</h4>
-								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
-                <h5>Member | </h5>
-								<h5></h5>
-							</div>
-
-							<div class="6u 12u(mobilep)">
-								<h4>Name</h4>
-								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
-                <h5>Member | </h5>
-								<h5></h5>
-							</div>
-							<div class="6u 12u(mobilep)">
-								<h4>Name</h4>
-								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
-                <h5>Member | </h5>
-								<h5></h5>
-							</div>
-
-							<div class="6u 12u(mobilep)">
-								<h4>Name</h4>
-								<img src="graphics/RTCircle_v5.png" alt="" width="30%"/>
-                <h5>Member | </h5>
-								<h5></h5>
-							</div>
-
-						</div>
+                            </div>

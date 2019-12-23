@@ -5,97 +5,176 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>UCSC Rocketry</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-        <link rel="icon" href="graphics/RTLogoNegative.png">
-	</head>
-	<style> /*this code is there to hide navbar on the top, to make sure custom navbar is the only thing seen properly */
- #header nav {
-			display: none!important;
-	}
-</style>
-	<style type="text/css"> /*this code is there to hide the midpage logo unless on mobile-done cause it looks nicer*/
-  .mobileShow {display: none;}
 
-  /* Smartphone Portrait and Landscape */
-  @media only screen
-    and (min-width : 320px)
-    and (max-width : 736px){
-      .mobileShow {display: inline;}
-  }
+<head>
+    <title>UCSC Rocketry</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <link rel="icon" href="graphics/RTCircle_v6_withBackground.png">
+</head>
+<style>
+    /*this code is there to hide navbar on the top, to make sure custom navbar is the only thing seen properly */
+    
+    #header nav {
+        display: none!important;
+    }
 </style>
-	<body class="landing">
-		<div id="page-wrapper">
+<style type="text/css">
+    /*this code is there to hide the midpage logo unless on mobile-done cause it looks nicer*/
+    
+    .mobileShow {
+        display: none;
+    }
+    /* Smartphone Portrait and Landscape */
+    
+    @media only screen and (min-width: 320px) and (max-width: 736px) {
+        .mobileShow {
+            display: inline;
+        }
+    }
+    
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+        font: inherit;
+        border: none;
+        position: relative;
+        outline: none;
+        padding: 0px 18px;
+        color: white;
+        background-color: inherit;
+        margin: 0;
+    }
+    
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: gold;
+        position: relative;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: relative;
+        background: rgba(28, 29, 38, 0.70);
+        min-width: 130px;
+        box-shadow: 0px 8px 6px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        float: none;
+        color: white;
+        padding: 8px 6px;
+        text-decoration: none;
+        position: relative;
+        display: block;
+        text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+        position: relative;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+        position: relative;
+    }
+</style>
 
-			<!-- Header -->
-				<header id="header">
-					<!-- TOP LEFT HAND CORNER TEXT h1 id="logo"><a href="index.html">Landed</a></h1-->
-					<!-- commenting out just for now to test alternate navbar style<nav id="nav"> -->
-					<div class="navigation-bar">
- 					<!-- changed navbar to navigation-bar class, so dont use "nav" anymore if you want this particular layout.
+<body class="landing">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <!-- TOP LEFT HAND CORNER TEXT h1 id="logo"><a href="index.html">Landed</a></h1-->
+            <!-- commenting out just for now to test alternate navbar style<nav id="nav"> -->
+            <div class="navigation-bar">
+                <!-- changed navbar to navigation-bar class, so dont use "nav" anymore if you want this particular layout.
 					the specific CSS code for this is found in main.css around 3370 or so -->
-<nav id="nav"> <!--this navbar is there NOT for actual navigation but to help display
+                <nav id="nav">
+                    <!--this navbar is there NOT for actual navigation but to help display
 	      navigation in mobile ONLY. Will keep this until a workaround is discovered -->
 
-    <!--MOBILE MENU-->
-    <ul>
-                  <li><h1 id="logo"><a href="index.html">Rocketry at UCSC</a></h1></li>
-									<li><a href="mission.html">Mission</a></li>
-									<li><a href="TeamPage.html">Team</a></li>
-									<li><a href="documents.html">Documentation</a></li>
-									<li><a href="outreach.html">Outreach</a></li>
-									<li><a href="sponsors.html">Sponsors</a></li>
-									<li><a href="Contacts.html">Contact Us</a></li>
-	</ul>
-</nav>
-<!--end pseudo navbar for mobile ^^ -->
-<!--REAL Navbar that has logo and is centered starts here -->
-                    <div id="navigation-container">
-						<ul>
-                            <li><a href="mission.html"><b><font color="black">Mission</font></b></a></li>
-							<li><a href="TeamPage.html"><b><font color="black">Team</font></b></a></li>
-                            <li><a href="documents.html"><b><font color="black">Documentation</font></b></a></li>
-
-                            <li><a href="https://www.youtube.com/channel/UCvJituK7pzSZR0LDOSw4gKg"><img src="graphics/RTLogoNegative.png" alt="logo" width="15%" height="15%" style="vertical-align: middle; padding-top: 1em"/></a></li>
-
-                            <li><a href="outreach.html"><b><font color="black">Outreach</font></b></a></li>
-                            <li><a href="sponsors.html"><b><font color="black">Sponsors</font></b></a></li>
-                            <li><a href="Contacts.html"><b><font color="black">Contact Us</font></b></a></li>
-
-						</ul>
-					</div>
-				</div>
-					<!-- commenting out for now </nav> -->
-				</header>
-
-			<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<header>
-
-                            <div class="mobileShow">
-							 <span class="image"><img src="graphics/RTCircle_v5.png" alt="logo" /></span>
+                    <!--MOBILE MENU-->
+                    <ul>
+                        <li>
+                            <h1 id="logo"><a href="index.html">Rocketry at UCSC</a></h1></li>
+                        <li><a href="mission.html">Mission</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="documents.html">Documentation</a></li>
+                        <li><a href="outreach.html">Outreach</a></li>
+                        <li><a href="sponsors.html">Sponsors</a></li>
+                        <li><a href="Contacts.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <!--end pseudo navbar for mobile ^^ -->
+                <!--REAL Navbar that has logo and is centered starts here -->
+                <div id="navigation-container">
+                    <ul>
+                        <li><a href="mission.html"><b>Mission</b></a></li>
+                        <li>
+                            <div <div class="dropdown">
+                                <a href="Leads.html">
+                                    <button class="dropbtn">
+                                        Team
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                </a>
+                                <div class="dropdown-content">
+                                    <a href="Leads.html">Leadership</a>
+                                    <a href="Payload.html">Payload</a>
+                                    <a href="ADAS.html">ADAS</a>
+                                    <a href="Airframe.html">Airframe</a>
+                                    <a href="Recovery.html">Recovery</a>
+                                </div>
                             </div>
+                        </li>
+                        <li><a href="documents.html"><b>Documentation</b></a></li>
+                        <li><a href="outreach.html"><b>Outreach</b></a></li>
 
-							<h2>UCSC ROCKET TEAM</h2>
-							<p><b>Advancing STEM Education. Empowering Students.</b></p>
+                        <li>
+                            <a href=""><img src="graphics/RTCircle_v5.png" alt="logo" width="15%" height="15%" style="vertical-align: middle; padding-top: 1em" /></a>
+                        </li>
 
-						</header>
+                        <li><a href="sponsors.html"><b>Sponsors</b></a></li>
+                        <li><a href="about.html"><b>About</b></a></li>
+                        <li><a href="https://calendar.google.com/calendar/embed?src=ucsc.edu_vk9gb6vuep468ol5q4utv0gv3g%40group.calendar.google.com&ctz=America%2FLos_Angeles"><b>Calendar</b></a></li>
+                        <li><a href="Contacts.html"><b>Contact Us</b></a></li>
 
+                    </ul>
+                </div>
+            </div>
+            <!-- commenting out for now </nav> -->
+        </header>
 
-					</div>
-					<!-- SCROLL DOWN ARROW a href="#one" class="goto-next scrolly">Next</a-->
-					<!-- <p style="text-align: center"><ul class="copyright"> -->
-						<!-- <li>&copy; Rocketry at UCSC. All rights reserved.</li></p> -->
-				</section>
+        <!-- Banner -->
+        <section id="banner">
+            <div class="content">
+                <header>
 
+                    <div class="mobileShow">
+                        <span class="image"><img src="graphics/RTCircle_v5.png" alt="logo" /></span>
+                    </div>
+
+                    <h2>UCSC ROCKET TEAM</h2>
+                    <p><b>Advancing STEM Education. Empowering Students.</b></p>
+
+                </header>
+
+            </div>
+            <!-- SCROLL DOWN ARROW a href="#one" class="goto-next scrolly">Next</a-->
+            <!-- <p style="text-align: center"><ul class="copyright"> -->
+            <!-- <li>&copy; Rocketry at UCSC. All rights reserved.</li></p> -->
+        </section>
 			<!-- One -->
 				<!--section id="one" class="spotlight style1 bottom">
 					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
