@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+body {
+    background-image: url("/images/Picture1.JPG");
+    background-size: cover;
+}
+.primarylink{
+    text-transform: uppercase;
+    background-color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
